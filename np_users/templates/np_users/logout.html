@@ -1,0 +1,12 @@
+{% extends 'navp/base.html' %}
+{% block content %}
+
+<div >
+    <h1>
+        You have been logged out .
+    </h1>
+    <span class='text-muted '>
+        <a class="ml-5" href={% url 'login' %}>login again</a>
+        </span>
+</div>
+{% endblock %}
